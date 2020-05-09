@@ -1,116 +1,41 @@
 @font-face {
-	font-family: 'Museo Sans Cyrl 500';
-	src: url('../fonts/MuseoSansCyrl-500.eot');
-	src: local('../fonts/MuseoSansCyrl-500'),
-		url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
-		url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'MuseoSansCyrl';
+    src: url("../fonts/MuseoSansCyrl-300.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap; 
 }
-
-@font-face {
-	font-family: 'Museo Sans Cyrl 300';
-	src: url('../fonts/MuseoSansCyrl-300Italic.eot');
-	src: local('../fonts/MuseoSansCyrl-300Italic'),
-		url('../fonts/MuseoSansCyrl-300Italic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/MuseoSansCyrl-300Italic.woff') format('woff'),
-		url('../fonts/MuseoSansCyrl-300Italic.ttf') format('truetype');
-	font-weight: 300;
-	font-style: italic;
+  
+  @font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url("../fonts/MuseoSansCyrl-700.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap; 
 }
-
-@font-face {
-	font-family: 'Museo Sans Cyrl 500';
-	src: url('../fonts/MuseoSansCyrl-500Italic.eot');
-	src: local('../fonts/MuseoSansCyrl-500Italic'),
-		url('../fonts/MuseoSansCyrl-500Italic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/MuseoSansCyrl-500Italic.woff') format('woff'),
-		url('../fonts/MuseoSansCyrl-500Italic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Museo Sans Cyrl 900';
-	src: url('../fonts/MuseoSansCyrl-900.eot');
-	src: local('../fonts/MuseoSansCyrl-900'),
-		url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
-		url('../fonts/MuseoSansCyrl-900.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Museo Sans Cyrl 700';
-	src: url('../fonts/MuseoSansCyrl-700.eot');
-	src: local('../fonts/MuseoSansCyrl-700'),
-		url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
-		url('../fonts/MuseoSansCyrl-700.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Museo Sans Cyrl 700';
-	src: url('../fonts/MuseoSansCyrl-700Italic.eot');
-	src: local('../fonts/MuseoSansCyrl-700Italic'),
-		url('../fonts/MuseoSansCyrl-700Italic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/MuseoSansCyrl-700Italic.woff') format('woff'),
-		url('../fonts/MuseoSansCyrl-700Italic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Museo Sans Cyrl 300';
-	src: url('../fonts/MuseoSansCyrl-300.eot');
-	src: local('../fonts/MuseoSansCyrl-300'),
-		url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
-		url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Museo Sans Cyrl 100';
-	src: url('../fonts/MuseoSansCyrl-100.eot');
-	src: local('../fonts/MuseoSansCyrl-100'),
-		url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
-		url('../fonts/MuseoSansCyrl-100.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Museo Sans Cyrl 100';
-	src: url('../fonts/MuseoSansCyrl-100Italic.eot');
-	src: local('../fonts/MuseoSansCyrl-100Italic'),
-		url('../fonts/MuseoSansCyrl-100Italic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/MuseoSansCyrl-100Italic.woff') format('woff'),
-		url('../fonts/MuseoSansCyrl-100Italic.ttf') format('truetype');
-	font-weight: 300;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Museo Sans Cyrl 900';
-	src: url('../fonts/MuseoSansCyrl-900Italic.eot');
-	src: local('../fonts/Museo Sans Cyrl 900 Italic'), local('MuseoSansCyrl-900Italic'),
-		url('../fonts/MuseoSansCyrl-900Italic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/MuseoSansCyrl-900Italic.woff') format('woff'),
-		url('../fonts/MuseoSansCyrl-900Italic.ttf') format('truetype');
-	font-weight: bold;
-	font-style: italic;
+  
+  @font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url("../fonts/MuseoSansCyrl-900.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap; 
 }
 
 
 body {
-    font-family: 'Museo Sans Cyrl 300';
+    font-family: 'MuseoSansCyrl';
+    font-weight: 300;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
 }
 
 .button {
@@ -120,19 +45,25 @@ body {
 }
 
 
-.page-header {    
-    background: #221C1E;     
-    background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+.page-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+    background: #AA2B2B;     
+    /* background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
     background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
     background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
     background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
-    -webkit-background-size: 4px 4px;
-    -moz-background-size: 4px 4px;
-    background-size: 4px 4px;       
+    -webkit-background-size: 3px 3px;
+    -moz-background-size: 3px 3px;
+    background-size: 3px 3px;        */
 }
 
-.header-top {    
-    background-color: #791717;
+.header-top { 
+    background-color: #000000;
 }
 
 .header-top__list {
@@ -141,7 +72,8 @@ body {
     margin-top: 0;
     margin-bottom: 0;   
     padding-top: 6px;
-    padding-bottom: 6px;         
+    padding-bottom: 6px; 
+
     list-style: none;   
 }
 
@@ -153,6 +85,7 @@ body {
 .header-top__link {
     padding-left: 5px;
     padding-right: 5px;
+
     color: #ffffff;
     text-decoration: none;    
 }
@@ -171,6 +104,7 @@ body {
 
 .logo__text {
     margin: 0;
+
     font-size: 16px;
     color: #ffffff;
     font-style: italic;    
@@ -180,29 +114,98 @@ body {
 .main-nav__list {
     display: flex;
     justify-content: space-between;
-    list-style: none;
     flex-basis: 40%;
     margin: 0;
     padding: 0;
+    list-style: none;     
 }
 
 .main-nav__link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+
     color: #ffffff;
     letter-spacing: 1px;
     text-transform: uppercase;
-    text-decoration: none;    
+    text-decoration: none;     
 }
-.main-nav__link:hover {
+.main-nav__link:hover {    
+    border-bottom: 1px solid #221C1E;
     
 }
 
 .main-nav__button {
-    background-color: #AA2B2B;
+    background-color: #791717;
     color: #ffffff;
     /* box-shadow: 0 -3px  #791717 inset; */        
     transition: 0.2s;
 }
 .main-nav__button:hover {
-    background-color: #791717;
+    background-color: #221C1E;    
+}
+
+.intro {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 100vh;
+
+    background-image: url(../img/woman1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.intro__title {
+    width: 70%;
+
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.intro__text {
+    width: 70%;
+}
+
+.intro__button {
+    background-color: #AA2B2B;
+    color: #ffffff;    
+}
+.advantages {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.advantages__list {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 0;    
+    padding: 0;
+
+    list-style: none;
+}
+.advantages__item {
+    display: flex;
+    flex-basis: 25%;
+}
+.advantages__image {
+    margin-right: 10px;
+}
+.advantages__title {   
+    margin: 0; 
+
+    font-size: 40px;       
+    font-weight: 700;
+    color: #aa2b2b; 
+}
+.advantages__text {
+    margin: 0;
     
+    font-size: 14px;
 }

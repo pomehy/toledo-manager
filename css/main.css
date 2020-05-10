@@ -152,7 +152,7 @@ body {
     padding-bottom: 40px;
     height: 100vh;
 
-    background-image: url(../img/woman1.jpg);
+    background-image: url(../img/woman2.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -182,7 +182,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    width: 75%;
+    width: 80%;
     justify-content: space-between;
     margin-top: 35px;
     margin-bottom: 0;    
@@ -191,8 +191,8 @@ body {
     list-style: none;
 }
 .advantages__item {
-    display: flex;
-    flex-basis: 25%;
+    display: flex; 
+    margin: 25px 0;   
 }
 .advantages__image {
     margin-right: 10px;
@@ -200,12 +200,54 @@ body {
 .advantages__title {   
     margin: 0; 
 
-    font-size: 40px;       
+    font-size: 45px;       
     font-weight: 700;
     color: #aa2b2b; 
 }
 .advantages__text {
     margin: 0;
     
-    font-size: 14px;
+    font-size: 16px;
+}
+.manufacture {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    
+}
+.manufacture__title {
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 1px;    
+    text-align: center;
+    text-transform: uppercase;    
+}
+
+.manufacture__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+
+.manufacture__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 120px;
+    margin-top: 20px; 
+    margin-right: 10px;   
+    margin-bottom: 20px;
+    margin-left: 10px;       
+    
+    box-shadow: 1px 1px 5px 2px  rgba(34, 60, 80, 0.2);
+}
+.manufacture__item:hover {    
+    box-shadow: 1px 1px 15px 4px  rgba(121, 23, 23, 0.2);
+}
+
+.manufacture__image {
+    display: block;
+    margin: auto;
 }

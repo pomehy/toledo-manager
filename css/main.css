@@ -117,11 +117,13 @@ body {
     list-style: none;     
 }
 
+
 .main-nav__link {
     position: relative;
     padding-top: 3px;
     padding-bottom: 3px;
 
+    font-size: 18px;
     font-weight: 700;    
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -395,24 +397,31 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .offer__item {
     display: flex;
-    align-items: center;
+    align-items: center;    
     margin-top: 15px;
     margin-bottom: 15px;    
     padding: 20px;
-
-    background-color: #ffffff;    
     
+
+    background-color: #ffffff;
+    border: 1px solid transparent;
 }
 
-.offer__desc {
+.offer__item:hover {
+    border: 1px solid #AA2B2B;
+}
+
+.offer__desc {   
+    
     padding-left: 15px;
     text-align: left;
 }
 
-.offer__head {
-    margin: 0;
+.offer__head {    
+    margin: 0;    
 }
 .offer__button {
     padding: 10px 20px;
@@ -459,6 +468,7 @@ body {
     margin-left: 10px;       
     
     box-shadow: 1px 1px 10px 2px  rgba(121, 23, 23, 0.2);  
+    box-shadow: 1px 1px 5px 2px rgba(34, 60, 80, 0.2);
       
 }
 
@@ -469,4 +479,24 @@ body {
 .manufacture__image {
     display: block;
     margin: auto;
+}
+
+.bonus {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    background-color: #AA2B2B;
+}
+
+.bonus__title {
+    display: inline-block;
+    padding: 15px 30px;
+
+    font-size: 40px;       
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff; 
+
+    border: 2px solid #ffffff;
+    
 }

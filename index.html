@@ -3,45 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <title>toledo-manager</title>
 </head>
 <body>
-    <header class="page-header">       
-            <div class="header-top">
-                <ul class="container header-top__list">
-                    <li class="header-top__item">г. Арзамас ул. Паркова 1Г, офис 211</li>
+    <header class="page-header">
+        <div class="header-top">
+                <ul class="container header-top__list">                    
                     <li class="header-top__item">
-                        <a class="header-top__link" href="#">+7 915 955 97 36</a>
+                        г. Арзамас ул. Парковая 1Г, офис 211
                     </li>
+                    <li class="header-top__item">                        
+                        <a class="header-top__link" href="#">+7 915 955 97 36</a>
+                    </li> 
                     <li class="header-top__item">
                         <a class="header-top__link" href="#">+7 83147 9-51-94</a>
                     </li>
                     <li class="header-top__item">
-                        <a class="header-top__link" href="#">Скачать прайс-лист</a>
+                        <a class="header-top__link" href="#">mail@toledo-manager.ru</a>
                     </li>
+                    <li class="header-top__item">Работаем по всей России</li>
                 </ul>
             </div>
-            <nav class="container main-nav">
-                <a class="logo" href="#">
-                    <img class="logo__image" src="/img/logo.svg" alt="Логотип Toledo" width="180" height="33">
-                    <p class="logo__text">Личный менеджер</p>
-                </a>
-                <ul class="main-nav__list">
-                    <li class="main-nav__item">
-                        <a class="main-nav__link" href="">Продукция</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a class="main-nav__link" href="">Отзывы</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a class="main-nav__link" href="">Контакты</a>
-                    </li>
-                </ul>
-                <button class="button main-nav__button">Заказать звонок</button>
-            </nav> 
+        <nav class="container main-nav">
+            <a class="logo" href="#">
+                <img class="logo__image" src="/img/logo-red.svg" alt="Логотип Toledo" width="180" height="33">
+                <p class="logo__text">Личный менеджер</p>
+            </a>
+            <ul class="main-nav__list">
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="">Продукция</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="">Отзывы</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="">Контакты</a>
+                </li>
+            </ul>
+            <div class="phone">
+                <a class="phone__number" href="tel:+7 915 955 97 36">+7 915 955 97 36</a>
+                <a class="phone__button" href="#">Заказать звонок</a>
+            </div>
+        </nav>
     </header>
     <main class="page-main">
         <h1 class="visually-hidden">Toledо</h1>
@@ -50,39 +57,38 @@
                 <h2 class="intro__title">Toledо - крупнейший поставщик электротехнической продукции в России</h2>
                 <p class="intro__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nostrum dolor ullam libero. Porro iste quidem dolores voluptas, eum quam? Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 <button class="button intro__button">Скачать прайс-лист</button>
-            </div>
-            <div class="container advantages">
                 <ul class="advantages__list row">
-                    <li class="advantages__item col-md-6">                       
+                    <li class="advantages__item col-md-3">
+                        <!-- <img class="advantages__image" src="img/olive.svg" alt="Стопа паллетов" width="60" height="60">                                              -->
                         <div class="advantages__desc">
                             <h3 class="advantages__title">25 <small>лет</small></h3>
                             <p class="advantages__text">поставок в срок</p>
-                        </div>
-                       
+                        </div>    
+                        <!-- <img class="advantages__image" src="img/olive.svg" alt="Стопа паллетов" width="60" height="60">                      -->
                     </li>
-                    <li class="advantages__item col-md-6">
-                        <img class="advantages__image" src="img/pallete.png" alt="Стопа паллетов" width="60" height="60">
+                    <li class="advantages__item col-md-3">
+                        <!-- <img class="advantages__image" src="img/pallete.png" alt="Стопа паллетов" width="60" height="60"> -->
                         <div class="advantages__desc">
                             <h3 class="advantages__title">22400</h3>
                             <p class="advantages__text">паллетомест</p>
                         </div>
                     </li>
-                    <li class="advantages__item col-md-6">
-                        <img class="advantages__image" src="img/pdoruct-group.png" alt="Группа товаров" width="60" height="60">
+                    <li class="advantages__item col-md-3">
+                        <!-- <img class="advantages__image" src="img/pdoruct-group.png" alt="Группа товаров" width="60" height="60"> -->
                         <div class="advantages__desc">
                             <h3 class="advantages__title">100</h3>
                             <p class="advantages__text">товарных групп</p>
                         </div>
                     </li>
-                    <li class="advantages__item col-md-6">
-                        <img class="advantages__image" src="img/S-sklad.png" alt="Склад" width="60" height="60">
+                    <li class="advantages__item col-md-3">
+                        <!-- <img class="advantages__image" src="img/S-sklad.png" alt="Склад" width="60" height="60"> -->
                         <div class="advantages__desc">
                             <h3 class="advantages__title">30000 м<sup>2</sup></h3>
                             <p class="advantages__text">площадь складов</p>
                         </div>
                     </li>
                 </ul>
-            </div>
+            </div> 
         </section>
         <section class="features">
             <div class="container">
@@ -145,8 +151,93 @@
                         </div>
                     </li>
                 </ul>
-
             </div>
+        </section>
+        <section class="offer">
+            <div class="container">
+                <h2 class="offer__title">Продукция Toledo</h2>
+                <ul class="offer__list row">
+                    <div class="col-md-6">
+                        <li class="offer__item">
+                            <img class="offer__image" src="img/content-img/offer/cable.jpg" alt="" width="150" >
+                            <div class="offer__desc">
+                                <h3 class="offer__head">Название товара</h3>
+                                <p class="offer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                                    earum nam doloribus veniam a magnam esse distinctio? Ipsum, praesentium. Dolor!</p>
+                                <button class="button offer__button">Подробнее</button>
+                            </div>
+                        </li>
+                    </div>                    
+                    <div class="col-md-6">
+                        <li class="offer__item">
+                            <img class="offer__image" src="img/content-img/offer/cable.jpg" alt="" width="150" >
+                            <div class="offer__desc">
+                                <h3 class="offer__head">Название товара</h3>
+                                <p class="offer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Laboriosam
+                                    earum nam doloribus veniam a magnam esse distinctio? Ipsum, praesentium. Dolor!</p>
+                                <button class="button offer__button">Подробнее</button>
+                            </div>
+                        </li>
+                    </div>
+
+                    <div class="col-md-6">
+                        <li class="offer__item">
+                            <img class="offer__image" src="img/content-img/offer/cable.jpg" alt="" width="150" >
+                            <div class="offer__desc">
+                                <h3 class="offer__head">Название товара</h3>
+                                <p class="offer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Laboriosam
+                                    earum nam doloribus veniam a magnam esse distinctio? Ipsum, praesentium. Dolor!</p>
+                                <button class="button offer__button">Подробнее</button>
+                            </div>
+                        </li>
+                    </div>
+
+                    <div class="col-md-6">
+                        <li class="offer__item">
+                            <img class="offer__image" src="img/content-img/offer/cable.jpg" alt="" width="150" >
+                            <div class="offer__desc">
+                                <h3 class="offer__head">Название товара</h3>
+                                <p class="offer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Laboriosam
+                                    earum nam doloribus veniam a magnam esse distinctio? Ipsum, praesentium. Dolor!</p>
+                                <button class="button offer__button">Подробнее</button>
+                            </div>
+                        </li>
+                    </div>
+
+                    <div class="col-md-6">
+                        <li class="offer__item">
+                            <img class="offer__image" src="img/content-img/offer/cable.jpg" alt="" width="150" >
+                            <div class="offer__desc">
+                                <h3 class="offer__head">Название товара</h3>
+                                <p class="offer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Laboriosam
+                                    earum nam doloribus veniam a magnam esse distinctio? Ipsum, praesentium. Dolor!</p>
+                                <button class="button offer__button">Подробнее</button>
+                            </div>
+                        </li>
+                    </div>
+
+                    <div class="col-md-6">
+                        <li class="offer__item">
+                            <img class="offer__image" src="img/content-img/offer/cable.jpg" alt="" width="150" >
+                            <div class="offer__desc">
+                                <h3 class="offer__head">Название товара</h3>
+                                <p class="offer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Laboriosam
+                                    earum nam doloribus veniam a magnam esse distinctio? Ipsum, praesentium. Dolor!</p>
+                                <button class="button offer__button">Подробнее</button>
+                            </div>
+                        </li>
+                    </div>
+                    
+                </ul>
+                
+                
+            </div>
+
         </section>
         <section class="manufacture container">
             <h2 class="manufacture__title">Производители</h2>
@@ -188,6 +279,14 @@
     <footer class="page-footer">
         
     </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 </body>
 </html>

@@ -159,7 +159,7 @@ body {
     font-size: 22px;
     font-weight: 700;
     text-decoration: none;
-    color: #221C1E;
+    color: #221C1E;    
 }
 
 .phone__button {
@@ -234,14 +234,16 @@ body {
     
     -webkit-box-shadow: 0px 9px 16px 0px rgba(250, 73, 35, 0.25);
     box-shadow: 0px 9px 16px 0px rgba(250, 73, 35, 0.25);
-
-    -webkit-transition: ease 0.3s;
-    transition: ease 0.3s;       
+           
+    cursor: pointer;
 }
 .intro__button:hover { 
-    cursor: pointer;
-    box-shadow: 0px 3px 3px 1px #221C1E;      
+    box-shadow: 0px 3px 3px 0px #221C1E;          
 }
+.intro__button:active {
+    box-shadow: inset 2px 2px 2px 0px #221C1E; 
+}
+
 
 .intro__button::before {
     content: "";
@@ -342,13 +344,13 @@ body {
 }
 .features {
     padding-top: 35px;
-    padding-bottom: 40px;
-
-    background-color: #791717;
+    padding-bottom: 40px;    
+    
     background-image: -webkit-repeating-radial-gradient(center center, rgba(63, 17, 17, 0.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
     background-image: -moz-repeating-radial-gradient(center center, rgba(63, 17, 17, 0.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
     background-image: -ms-repeating-radial-gradient(center center, rgba(63, 17, 17, 0.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
     background-image: repeating-radial-gradient(center center, rgba(63, 17, 17, 0.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: linear-gradient(65deg, #791717, #AA2B2B);
     -webkit-background-size: 3px 3px;
     -moz-background-size: 3px 3px;
     background-size: 3px 3px;
@@ -434,6 +436,7 @@ body {
 
 .offer__item:hover {
     border: 1px solid #AA2B2B;
+    
 }
 
 .offer__desc {   
@@ -451,14 +454,15 @@ body {
 }
 .offer__button {
     padding: 10px 20px;
-    background-image: linear-gradient(65deg, #791717, #AA2B2B);
+    background-image: linear-gradient(65deg, #d63232, #AA2B2B);
     color: #ffffff;
-
-    transition: 0.1s;
+    cursor: pointer;     
 }
-.offer__button:hover {
-    cursor: pointer;    
+.offer__button:hover {       
     box-shadow: 0px 3px 3px 0px #221C1E;   
+}
+.offer__button:active {       
+    box-shadow: inset 2px 2px 2px 0px #221C1E;   
 }
 
 
@@ -500,20 +504,26 @@ body {
     margin-top: 20px; 
     margin-right: 10px;   
     margin-bottom: 20px;
-    margin-left: 10px;       
+    margin-left: 10px;           
     
-    box-shadow: 1px 1px 10px 2px  rgba(121, 23, 23, 0.2);  
     box-shadow: 1px 1px 5px 2px rgba(34, 60, 80, 0.2);
+
+    transition: 0.2s;
       
 }
 
 .manufacture__item:hover {    
+    transform: scale(1.1);
     box-shadow: 1px 1px 15px 4px  rgba(121, 23, 23, 0.2);
 }
 
 .manufacture__image {
     display: block;
     margin: auto;
+    transition: 0.2s;
+}
+.manufacture__image:hover {
+    
 }
 
 .manager {
@@ -521,22 +531,37 @@ body {
     padding-bottom: 40px;
 
     background-color: #AA2B2B;
+    background-image: linear-gradient(65deg, #0d3958, #0870bb);
+    /* background-image: -webkit-repeating-radial-gradient(center center, rgba(63, 17, 17, 0.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, rgba(63, 17, 17, 0.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, rgba(63, 17, 17, 0.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, rgba(63, 17, 17, 0.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: linear-gradient(65deg, #791717, #c01c1c); */
+    /* background-color: #221C1E; */
+    -webkit-background-size: 3px 3px;
+    -moz-background-size: 3px 3px;
+    background-size: 3px 3px;
 }
 
 .manager__title {
-    display: inline-block;  
+    display: inline-block;
+    margin-top: 20px;  
     margin-bottom: 0px;  
 
     font-size: 40px;       
     font-weight: 900;
     text-transform: uppercase;
     color: #ffffff;  
+
+    text-shadow: 0 0 3px #221C1E;
 }
 
 .manager__subtitle {
     margin: 0;
     font-size: 20px;
     color: #ffffff;
+
+    text-shadow: 0 0 3px #221C1E;
 }
 
 .manager__list {
@@ -550,6 +575,8 @@ body {
     display: flex;
     align-items: center;    
     margin-bottom: 35px;
+
+    
 }
 
 .manager__icon {
@@ -563,11 +590,174 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #ffffff;
+
+    text-shadow: 0 0 3px #221C1E;
 }
 
 
 .manager__text {    
     margin: 0;
-
     color: #ffffff;
+
+    text-shadow: 0 0 3px #221C1E;
+}
+
+.form-manager-wrapper {    
+    width: 80%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 2px 2px 5px 3px rgba(34, 60, 80, 0.2);
+}
+
+.form-manager__title {
+    margin-top: 10px;
+    margin-bottom: 0;
+
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form-manager__text {
+    margin-top: 7px;
+    margin-bottom: 30px;
+
+    text-align: center;
+    line-height: 130%;
+}
+
+.form-manager__text span {    
+    font-weight: 700;
+    border-bottom: 1px dotted #221C1E;
+}
+
+.form-manager__input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-manager__input {
+    padding: 13px 10px;
+    margin-bottom: 15px;   
+    
+    font-size: 18px;
+    line-height: 120%;
+
+    border: 1px solid rgb(197, 191, 191);
+    border-radius: 5px;
+    box-shadow: inset 0 0 1px;
+}
+
+.form-manager__input:focus {
+    /* outline-color: #dfdc0b;
+    outline-width: 3px; */
+}
+
+.check-wrapper {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-manager__check {
+    margin-right: 15px;
+}
+
+.form-manager__check + label {        
+    font-size: 12px;
+}
+
+.form-manager__button {    
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    background-image: linear-gradient(65deg, #d63232, #AA2B2B);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 9px 16px 0px rgba(250, 73, 35, 0.25);    
+
+       
+    cursor: pointer;
+    overflow: hidden;  
+       
+}
+.form-manager__button:hover {
+    box-shadow: 0px 2px 2px 1px #221C1E;
+}
+.form-manager__button:active {       
+    box-shadow: inset 2px 2px 2px 0px #221C1E;   
+}
+
+.form-manager__button::before {
+    content: "";
+    position: absolute;       
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    display: block; 
+    width: 100%;
+    height: 100%;
+
+    background: #fa4923;
+    opacity: 0;
+    
+    -webkit-transition: ease 0.3s;
+    transition: ease 0.3s;
+}
+
+.form-manager__button::after {
+    content: "";
+    position: absolute;
+    left: -40px;
+    top: -150px;
+    z-index: 1;
+
+    display: block;
+    width: 30px;
+    height: 300px;
+    margin-left: 60px;
+
+    background: #fff;
+    
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    -webkit-animation-name: flash;
+    animation-name: flash;
+    -webkit-animation-duration: 3s;
+    animation-duration: 2.5s;
+    -webkit-animation-delay: 0.05s;
+    animation-delay: 0.05s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.form-manager__button span {
+    position: relative; 
+    display: inline-block;
+    width: 30px;
+}
+.form-manager__button span::before {
+    position: absolute;    
+    bottom: -13px;
+    right: 15px;
+    content: url(/img/gift.png);
 }

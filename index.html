@@ -36,7 +36,7 @@
             <ul class="main-nav__list">
                 <li class="main-nav__item">
                     <a class="main-nav__link" href="">Продукция</a>
-                </li>
+                </li>                
                 <li class="main-nav__item">
                     <a class="main-nav__link" href="">Отзывы</a>
                 </li>
@@ -446,16 +446,115 @@
         <section class="reviews">
             <div class="container">
                 <h2 class="reviews__title">Отзывы покупателей</h2>
-                <ul class="reviews__list">
-                    <li class="reviews__item"></li>
-                    <li class="reviews__item"></li>
-                    <li class="reviews__item"></li>
+                <ul class="reviews__list row">
+                    <div class="col-md-4">
+                        <li class="reviews__item autor">
+                            <img class="autor__photo" src="img/content-img/reviews/autor-photo-1.jpg" alt="" width="200">
+                            <blockquote class="autor__desc">
+                                <cite class="autor__name">Петров Иван</cite>
+                                <span>Владелец магазин</span>
+                                <p class="autor__comment">Очень хороший магазин. Ну просто ваще. Хожу каждый день. И ещё
+                                    вот почитайте Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
+                                    commodi minus, totam beatae perspiciatis modi.</p>
+                            </blockquote> 
+                            <div class="rating-stars">
+                                <span class="stars">&#9733;</span>
+                                <span class="stars">&#9733;</span>  
+                                <span class="stars">&#9733;</span>  
+                                <span class="stars">&#9733;</span>  
+                                <span class="stars">&#9733;</span>                                                    
+                            </div>
+                        </li>
+                    </div>
+                    <div class="col-md-4">
+                        <li class="reviews__item autor">
+                            <img class="autor__photo" src="img/content-img/reviews/autor-photo-2.jpg" alt="" width="200">
+                            <blockquote class="autor__desc">
+                                <cite class="autor__name">Сергей Петренко</cite>
+                                <span>Начальник производства</span>
+                                <p class="autor__comment">С менеджером Татьяной работаем очень давно, она большая
+                                    молодец. Помогает найти выгодные предложения, отгрузка и доставка проходит быстро. И
+                                    вообще, она очень хороший человек.</p>
+                            </blockquote>
+                            <div class="rating-stars">
+                                <span class="stars">&#9733;</span>
+                                <span class="stars">&#9733;</span>  
+                                <span class="stars">&#9733;</span>  
+                                <span class="stars">&#9733;</span>  
+                                <span class="stars">&#9733;</span>                                                    
+                            </div>
+                        </li>
+                    </div>
+                    <div class="col-md-4">
+                        <li class="reviews__item autor">
+                            <img class="autor__photo" src="img/content-img/reviews/autor-photo-3.jpg" alt="" width="200">
+                            <blockquote class="autor__desc">
+                                <cite class="autor__name">Владимир Борисов</cite>
+                                <span>Директор завода</span>
+                                <p class="autor__comment">Если говорить про надежного партнера, то это TOLEDO. Хорошие
+                                    цены, приятное обслуживание. Професииональный подход. Особенно хочу отметить
+                                    менеджера из г. Арзамас, Лапину Татьяну - профессионал !</p>
+                            </blockquote> 
+                            <div class="rating-stars">
+                                <span class="stars">&#9733;</span>
+                                <span class="stars">&#9733;</span>  
+                                <span class="stars">&#9733;</span>  
+                                <span class="stars">&#9733;</span>  
+                                <span class="stars">&#9733;</span>                                                    
+                            </div>
+                        </li>
+                    </div> 
                 </ul>
             </div>
         </section>
+        <section class="contacts">            
+            <div class="contacts-wrapper">
+                <div class="content-wrapper container">
+                    <div class="contacts-box">
+                        <h3 class="contacts__title">Контакты</h3>
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <h3 class="contacts__head">Адрес:</h3>
+                                <p class="contacts__text">607230, ул. Парковая, д. 1г,<br> (Бизнес центр Коммерсант)
+                                    оф.
+                                    211
+                                </p>
+                            </li>
+                            <li class="contacts__item">
+                                <h3 class="contacts__head">График работы:</h3>
+                                <p class="contacts__text">Понедельник–пятница с 8:00 - 17:00</p>
+                            </li>
+                            <li class="contacts__item">
+                                <h3 class="contacts__head">Телефон:</h3>
+                                <p class="contacts__text">+7 915 955 97 36; +7 83147 9-51-94</p>
+                            </li>
 
+                            <li class="contacts__item">
+                                <h3 class="contacts__head">E-mail:</h3>
+                                <p class="contacts__text">mail@toledo-manager.ru</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="map-wrapper">
+                    <iframe class="contacts__map"
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Af279f81eb520f56e2ca9d071fe9c8eb1a670b93b41790c46d435d9851127cc8b&amp;source=constructor"
+                    width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+            </div>
+            <div class="contacts__line">
+                <div class="contacts-line-wrapper container">
+                    <p>Остались вопросы? Позвоните +7 915 955 97 36 или отправьте заявку</p>
+                    <button class="contacts__button">Связаться с нами</button>
+                </div>
+                
+            </div>
+        </section>
     </main>
     <footer class="page-footer">
+        <div class="container">
+
+        </div>
         
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

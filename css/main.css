@@ -26,6 +26,8 @@
 body {
     font-family: 'MuseoSansCyrl';
     font-weight: 300;
+
+    background-color: #ffffff;
 }
 .visually-hidden {
     position: absolute;
@@ -204,7 +206,7 @@ body {
     padding-bottom: 40px;
     height: 100vh;
 
-    background-image: url(../img/woman2.jpg);
+    background-image: url(../img/woman1.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -778,7 +780,7 @@ body {
     position: absolute;    
     bottom: -13px;
     right: 15px;
-    content: url(/img/gift.png);
+    content: url(../img/gift.png);
 }
 
 .reviews {
@@ -1070,3 +1072,49 @@ body {
     font-size: 14px;
     color: #EEEEEE;
 }
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+@media only screen and (max-width : 1199px) {
+    
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+        
+
+}
+@media only screen and (max-width : 991px) {
+     
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    
+}  
+
+@media only screen and (max-width : 767px) {  
+    
+    
+}
+
+@media only screen and (max-width : 576px) {
+   
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    
+}
+
+@media only screen and (max-width : 360px) {
+    
+} 

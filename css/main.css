@@ -213,7 +213,7 @@ body {
 
 .intro { 
     display: flex;
-    align-items: center;        
+    align-items: flex-end;        
     padding-bottom: 40px;
     height: 100vh;
 
@@ -336,16 +336,15 @@ body {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 83%;
-    justify-content: space-between;
-    margin-top: 35px;
-    margin-bottom: 35px;    
+    justify-content: space-between; 
+    margin-top: 35px;      
     padding: 0;
 
     list-style: none;
 }
 .advantages__item {
     display: flex; 
-    margin: 25px 0;   
+    margin: 10px 0;   
 }
 .advantages__item img:last-child {
     transform: scale(-1, 1);

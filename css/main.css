@@ -179,7 +179,7 @@ body {
 .phone__button {
     position: relative;
     margin-top: 3px;   
-    padding: 0;     
+    padding: 0 5px 0 0;     
 
     font-weight: 700;
     text-align: right;
@@ -188,6 +188,8 @@ body {
     
     background-color: transparent;
     border: none;
+
+    cursor: pointer;
 }
 
 .phone__button:hover {      
@@ -633,7 +635,7 @@ body {
     text-shadow: 0 0 3px #221C1E;
 }
 
-.form-manager-wrapper {    
+.form-wrapper {    
     width: 80%;
     margin-top: 20px;
     padding: 20px;
@@ -645,7 +647,7 @@ body {
     
 }
 
-.form-manager__title {
+.form__title {
     margin-top: 10px;
     margin-bottom: 0;
 
@@ -655,7 +657,7 @@ body {
     text-align: center;
 }
 
-.form-manager__text {
+.form__text {
     margin-top: 7px;
     margin-bottom: 30px;
 
@@ -663,19 +665,19 @@ body {
     line-height: 130%;
 }
 
-.form-manager__text span {    
+.form__text span {    
     font-weight: 700;
     color: #d63232;
     border-bottom: 1px dotted #221C1E;
 }
 
-.form-manager__input-group {
+.form__input-group {
     display: flex;
     flex-direction: column;
 }
 
 
-.form-manager__input {
+.form__input {
     padding: 13px 10px;
     margin-bottom: 15px;   
     
@@ -687,7 +689,7 @@ body {
     box-shadow: inset 0 0 1px;
 }
 
-.form-manager__input:focus {
+.form__input:focus {
     /* outline-color: #dfdc0b;
     outline-width: 3px; */
 }
@@ -698,15 +700,15 @@ body {
     margin-bottom: 10px;
 }
 
-.form-manager__check {
+.form__check {
     margin-right: 15px;
 }
 
-.form-manager__check + label {        
+.form__check + label {        
     font-size: 12px;
 }
 
-.form-manager__button {    
+.form__button {    
     position: relative;
     width: 100%;
     margin-top: 15px;
@@ -729,14 +731,14 @@ body {
     overflow: hidden;  
        
 }
-.form-manager__button:hover {
+.form__button:hover {
     box-shadow: 0px 4px 3px 0px #221C1E; 
 }
-.form-manager__button:active {       
+.form__button:active {       
     box-shadow: inset 2px 2px 2px 0px #221C1E;   
 }
 
-.form-manager__button::before {
+.form__button::before {
     content: "";
     position: absolute;       
     top: 0;
@@ -754,7 +756,7 @@ body {
     transition: ease 0.3s;
 }
 
-.form-manager__button::after {
+.form__button::after {
     content: "";
     position: absolute;
     left: -40px;
@@ -784,12 +786,12 @@ body {
     animation-iteration-count: infinite;
 }
 
-.form-manager__button span {
+.form__button span {
     position: relative; 
     display: inline-block;
     width: 30px;
 }
-.form-manager__button span::before {
+.form__button span::before {
     position: absolute;    
     bottom: -13px;
     right: 15px;
@@ -1204,11 +1206,6 @@ body {
   }
 }
 
-@media (min-width: 992px) {
-  .modal-lg {
-    max-width: 800px;
-  }
-}
 
 .fade {
     transition: opacity 0.15s linear;
@@ -1233,10 +1230,15 @@ body {
     right: 10px;
     padding: 10px;
     
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 900;
     border:none;
     background-color: transparent;
+
+    cursor: pointer;
+}
+.modal-sendform__close:hover {
+    color: #d63232;
 }
 
 
@@ -1256,6 +1258,9 @@ body {
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .modal-lg {
+        max-width: 800px;
+      }
         
 
 }

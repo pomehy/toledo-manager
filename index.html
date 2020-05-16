@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">    -->
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
@@ -25,7 +26,9 @@
                     <li class="header-top__item">
                         <a class="header-top__link" href="mailto:mail@toledo-manager.ru">mail@toledo-manager.ru</a>
                     </li>
-                    <li class="header-top__item">Работаем по всей России</li>
+                    <li class="header-top__item">
+                        Работаем по всей России                                             
+                    </li>
                 </ul>
             </div>
         <nav class="container main-nav">
@@ -49,11 +52,12 @@
             </ul>
             <div class="phone">
                 <a class="phone__number" href="tel:+79159559736">+7 915 955 97 36</a>
-                <a class="phone__button" href="#">Заказать звонок</a>
+                <button type="button" class="phone__button" data-toggle="modal" data-target="#sendform">Заказать
+                    звонок</button>
             </div>
         </nav>
     </header>
-    <main class="page-main">
+    <main class="page-main">          
         <a id="top" class="section-anchor"></a> 
         <h1 class="visually-hidden">Toledо</h1>
         <section class="intro">
@@ -169,7 +173,7 @@
                                     Силовые в ПВХ изоляции, контрольные, информационные, радиочастотные, аккустические, видеонаблюдения кабеля. 
                                     Бытовые, монтажные, установочные...
                                 </p> 
-                                <button class="button offer__button">Подробнее</button>
+                                <button class="button offer__button" type="button" data-toggle="modal" data-target="#sendform">Подробнее</button>
                             </div>
                         </li>
                     </div>                    
@@ -180,7 +184,7 @@
                                 <h3 class="offer__head">Кабельнесущие системы и аксессуары</h3>
                                 <p class="offer__text">Кабельные каналы. Наконечники, гильзы, муфты, клеммы, СИЗ, ТУТ. Арматура для СИП.
                                     Гофра, металлорукав, трубы ПВХ. Лотки, полки. Аксессуары.</p>
-                                <button class="button offer__button">Подробнее</button>
+                                <button class="button offer__button" type="button" data-toggle="modal" data-target="#sendform">Подробнее</button>
                             </div>
                         </li>
                     </div>
@@ -199,7 +203,7 @@
                                     <li>Кронштейны и опоры.</li>    
                                     <li>Аксессуары, стартеры, трансформаторы, дроссели.</li>    
                                 </ul>
-                                <button class="button offer__button">Подробнее</button>
+                                <button class="button offer__button" type="button" data-toggle="modal" data-target="#sendform">Подробнее</button>
                             </div>
                         </li>
                     </div>
@@ -218,7 +222,7 @@
                                 <p class="visually-hidden">Газоразрядные лампы (уличные промышленные).
                                     Лампы специального назначения (фотооптика, автомобильные, СВЧ-печей, холодильников и др.)
                                 </p>
-                                <button class="button offer__button">Подробнее</button>
+                                <button class="button offer__button" type="button" data-toggle="modal" data-target="#sendform">Подробнее</button>
                             </div>
                         </li>
                     </div>
@@ -242,7 +246,7 @@
                                     <li>Электросчетчики.</li>
                                     <li>Пробки, предохранители, плавкие вставки.</li>
                                 </ul>  
-                                <button class="button offer__button">Подробнее</button>
+                                <button class="button offer__button" type="button" data-toggle="modal" data-target="#sendform">Подробнее</button>
                             </div>
                         </li>
                     </div>
@@ -253,7 +257,7 @@
                                 <h3 class="offer__head">Щитовое оборудование и аксессуары</h3>
                                 <p class="offer__text">Щиты , боксы.
                                     Аксессуары для щитового оборудования.</p>
-                                <button class="button offer__button">Подробнее</button>
+                                <button class="button offer__button" type="button" data-toggle="modal" data-target="#sendform">Подробнее</button>
                             </div>
                         </li>
                     </div>
@@ -263,7 +267,7 @@
                             <div class="offer__desc">
                                 <h3 class="offer__head">Телефония, Аудио, Видео, ТВ</h3>
                                 <p class="offer__text">Антенны, блоки питания, системы оповещения, переходники, разъёмы, штекеры, розетки, шнуры, рессивиры, ТВ Приставки и акссесуары. </p>
-                                <button class="button offer__button">Подробнее</button>
+                                <button class="button offer__button" type="button" data-toggle="modal" data-target="#sendform">Подробнее</button>
                             </div>
                         </li>
                     </div>
@@ -295,7 +299,7 @@
                                     <li>Электроустановочные изделия SIMON</li>
                                     <li>Электроустановочные изделия QUEL FLOS</li>
                                 </ul>                   
-                                <button class="button offer__button">Подробнее</button>
+                                <button class="button offer__button" type="button" data-toggle="modal" data-target="#sendform">Подробнее</button>
                             </div>
                         </li>
                     </div>
@@ -317,7 +321,7 @@
                                     <li>Источники питания для систем безопасности </li>
                                     <li>Устройства электропитания под заказ     </li>
                                 </ul>    
-                                <button class="button offer__button">Подробнее</button>
+                                <button class="button offer__button" type="button" data-toggle="modal" data-target="#sendform">Подробнее</button>
                             </div>
                         </li>
                     </div>
@@ -341,7 +345,7 @@
                                     <li>Удлинители силовые КГ кабель</li>
                                     <li>Удлинители силовые КГ кабель на катушке</li>
                                 </ul>                                
-                                <button class="button offer__button">Подробнее</button>
+                                <button class="button offer__button" type="button" data-toggle="modal" data-target="#sendform">Подробнее</button>
                             </div>
                         </li>
                     </div>                    
@@ -437,7 +441,7 @@
                                     персональных данных».
                                     </label>
                                 </div>                                
-                                <button class="form-manager__button"type="submit"><span></span>Получить бонус</button>
+                                <button class="form-manager__button"type="submit"><span></span>Получить бонус</button>                                
                             </form>
                         </div> 
                     </div>
@@ -545,13 +549,53 @@
                     </div>
                 </div>
             </div>           
-        </section>
+        </section> 
+        <!-- Modal sendform -->
+        <div class="modal fade" id="sendform" tabindex="-1" role="dialog" aria-hidden="true"
+            aria-labelledby="Форма обратного звонка" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-sendform">                    
+                    <div class="modal-body modal-sendform__body">                        
+                        <form class="form-manager" action="">
+                            <button type="button" class="modal-sendform__close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3 class="form-manager__title">Мы вам перезвоним</h3>
+                            <p class="form-manager__text">Оставьте заявку и мы ответим на все вопросы</p>
+                            <div class="form-manager__input-group">
+                                <label class="visually-hidden" for="form-sendform-name">Имя:</label>
+                                <input class="form-manager__input" id="form-sendform-name" type="text" placeholder="Ваше имя*" required>
+                            </div>
+                            <div class="form-manager__input-group">
+                                <label class="visually-hidden" for="form-sendform-phone">Телефон:</label>
+                                <input class="form-manager__input" id="form-sendform-phone" type="tel" placeholder="Ваш телефон*" required>
+                            </div>
+                            <div class="check-wrapper">
+                                <input class="form-manager__check" id="form-sendform-check" type="checkbox"> 
+                                <label class="form-manager-check-text" for="form-sendform-check">Я принимаю условия
+                                Пользовательского соглашения и даю своё согласие на обработку моих персональных
+                                данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О
+                                персональных данных».
+                                </label>
+                            </div>                                
+                            <button class="form-manager__button" type="submit">Отправить</button>                                
+                        </form>
+                       
+                    </div>
+                    <!-- <div class="modal-footer modal-callback__footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        
     </main>
     <footer class="page-footer">
         <div class="footer-nav container">
             <div class="footer-top row">
                 <div class="footer-nav__logo col-md-3">
-                    <a class="logo" href="#">
+                    <a class="logo" href="#top">
                         <img class="logo__image" src="img/logo.svg" alt="Логотип Toledo" width="180" height="33">                       
                     </a>
                     <p class="footer-nav__text">Оригинальный дизайн и материалы являются собственностью</p>
@@ -596,7 +640,7 @@
                     <p>Позвоните +7 915 955 97 36<br>
                         или отправьте заявку
                     </p>
-                    <button class="footer-nav__button">Связаться с нами</button>
+                    <button class="footer-nav__button" type="button" data-toggle="modal" data-target="#sendform">Связаться с нами</button>
                 </div>
             </div>
             <div class="copyright">
@@ -605,7 +649,7 @@
             </div>
         </div>
         
-    </footer>
+    </footer>   
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
@@ -616,6 +660,8 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script> -->
     <script src="js/scripts.js"></script>
+    <script src="js/sendmail.js"></script>
 </body>
 </html>

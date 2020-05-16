@@ -213,7 +213,7 @@ body {
 
 .intro { 
     display: flex;
-    align-items: flex-end;        
+    align-items: center;        
     padding-bottom: 40px;
     height: 100vh;
 

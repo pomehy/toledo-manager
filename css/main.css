@@ -215,6 +215,7 @@ body {
     display: flex;
     align-items: center;        
     padding-bottom: 40px;
+    padding-top: 140px;
     height: 100vh;
 
     background-image: url(../img/woman1.jpg);
@@ -233,8 +234,7 @@ body {
     line-height: 140%;
     text-transform: uppercase;
 }
-.intro-wrapper {
-    margin-top: 120px;
+.intro-wrapper {    
 }
 .intro__subtitle {
     margin-top: 0;
@@ -337,7 +337,7 @@ body {
     flex-wrap: wrap;
     width: 83%;
     justify-content: space-between; 
-    margin-top: 35px;      
+    margin-top: 25px;      
     padding: 0;
 
     list-style: none;

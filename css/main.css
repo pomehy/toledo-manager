@@ -56,8 +56,7 @@ body {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030; 
-    
+    z-index: 1030;    
 
     
     background-image: linear-gradient(65deg, #eeeeee, #ffffff);
@@ -213,8 +212,8 @@ body {
   }
 
 .intro { 
-    margin-top: 20px;       
-    padding-top: 140px;
+    display: flex;
+    align-items: center;        
     padding-bottom: 40px;
     height: 100vh;
 
@@ -234,7 +233,9 @@ body {
     line-height: 140%;
     text-transform: uppercase;
 }
-
+.intro-wrapper {
+    margin-top: 90px;
+}
 .intro__subtitle {
     margin-top: 0;
     margin-bottom: 40px;

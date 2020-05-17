@@ -47,8 +47,8 @@ body {
 
 .section-anchor {
     display: block;
-    margin-bottom:155px;
-    margin-top:-155px
+    margin-bottom: 153px;
+    margin-top: 153px
 }
 
 .page-header {
@@ -832,10 +832,6 @@ body {
     box-shadow: inset 0 0 1px;
 }
 
-.form__input:focus {
-    /* outline-color: #dfdc0b;
-    outline-width: 3px; */
-}
 
 .check-wrapper {
     display: flex;
@@ -850,9 +846,28 @@ body {
 .form__check + label {        
     font-size: 12px;
 }
+.button-bonus span {
+    position: relative;
+    margin-right: 10px;
+}
+
+.button-bonus__icon-color {
+    position: absolute;
+    opacity: 0;        
+
+    transition: opacity 0.3s ease-in-out;
+}
+
+.form__button:hover  .button-bonus__icon-color {
+    opacity: 1;    
+}
+
 
 .form__button {    
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -870,8 +885,9 @@ body {
     box-shadow: 0px 3px 3px 0px #221C1E; 
 
        
+       
     cursor: pointer;
-    overflow: hidden;  
+    overflow: hidden;    
        
 }
 .form__button:hover {
@@ -929,7 +945,7 @@ body {
     animation-iteration-count: infinite;
 }
 
-.form__button span {
+/* .form__button span {
     position: relative; 
     display: inline-block;
     width: 30px;
@@ -939,7 +955,7 @@ body {
     bottom: -13px;
     right: 15px;
     content: url(../img/gift.png);
-}
+} */
 
 .reviews {
     padding-top: 40px;
@@ -1600,6 +1616,9 @@ body {
     }
     .form__title {
         font-size: 25px;
+    }
+    .offer__head {
+        font-size: 17px;
     }
     
     

@@ -845,6 +845,7 @@ body {
 
 .form__check + label {        
     font-size: 12px;
+    padding: 0 5px;
 }
 .button-bonus span {
     position: relative;

@@ -48,7 +48,7 @@ body {
 .section-anchor {
     display: block;
     margin-bottom: 153px;
-    margin-top: 153px
+    margin-top: -153px
 }
 
 .page-header {

@@ -205,6 +205,7 @@ b, strong {
     color: #221C1E;    
 }
 .main-nav__list-wrapper {
+    position: relative;
     display: flex;
     justify-content: center;
 }
@@ -723,6 +724,9 @@ b, strong {
     -moz-background-size: 3px 3px;
     background-size: 3px 3px;
     box-shadow: inset 0px 0px 10px;
+    background-image: url(../img/content-img/manager/manager-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .manager__title {
@@ -1089,7 +1093,11 @@ b, strong {
     margin-bottom: 0;    
 }
 
-
+.bonus {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+}
 
 .footer-nav__button {
     position: relative;
@@ -1229,6 +1237,8 @@ b, strong {
 .footer-nav__link:hover {
     color: #d63232;
 } 
+
+
 .footer-nav__question {
     display: flex;
     flex-direction: column;

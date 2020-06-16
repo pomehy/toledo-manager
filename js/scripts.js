@@ -9,7 +9,7 @@ document.addEventListener('click', function(e) {
 
  
 $(document).ready(function () {
-      $('.main-nav a[href^="#"], *[data-href^="#"]').on('click', function (e) {
+      $('.main-nav__link, .logo[href^="#"], *[data-href^="#"]').on('click', function (e) {
           e.preventDefault();
           var t = 1000;
           var d = $(this).attr('data-href') ? $(this).attr('data-href') : $(this).attr('href');

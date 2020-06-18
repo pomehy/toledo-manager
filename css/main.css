@@ -521,6 +521,8 @@ b, strong {
     color: #ffffff;
 }
 
+/* --- offer --- */
+
 .offer {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -553,6 +555,10 @@ b, strong {
     
     box-shadow: 1px 1px 5px 2px rgba(34, 60, 80, 0.2);
     transition: 0.1s;
+}
+
+.offer__image {
+    flex-basis: 100%;
 }
 
 .offer__item-wrapper:hover {    

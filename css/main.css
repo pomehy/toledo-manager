@@ -300,8 +300,7 @@ b, strong {
     stroke-dashoffset: -64px;
 }
 
-.ham8.active .middle {
-    stroke-dashoffset: -20px;
+.ham8.active .middle {    
     transform: rotate(90deg);
 }
 
@@ -558,6 +557,7 @@ b, strong {
 }
 
 .offer__image {
+    max-width: 150px;
     flex-basis: 100%;
 }
 
@@ -866,7 +866,8 @@ b, strong {
 
     list-style: none;
 }
-.reviews__item {    
+
+.autor {
     padding: 20px;
     margin: 15px;
     text-align: center;
@@ -1220,6 +1221,7 @@ b, strong {
     }
     .offer__image {
         width: 100%;
+        height: auto;
     }
     .offer__desc {
         padding: 15px 0 0 0;

@@ -503,19 +503,25 @@
                     </div>
                     <div class="col-md-6">
                         <div class="form-wrapper">                            
-                            <form class="form" action="">
+                            <form class="form">
                                 <h3 class="form__title">Оставьте заявку</h3>
-                                <p class="form__text"> получите БЕСПЛАТНУЮ консультацию и<span><strong> персональный БОНУС от менеджера</strong></span></p>
+                                <p class="form__text"> получите БЕСПЛАТНУЮ консультацию и<span><strong> персональный
+                                            БОНУС от менеджера</strong></span></p>
+                                <!-- Hidden Required Fields -->
+                                <input type="hidden" name="project_name" value="toledo-manager.ru">
+                                <input type="hidden" name="admin_email" value="mail@toledo-manager.ru">
+                                <input type="hidden" name="form_subject" value="Бонус от менеджера toledo-manager.ru">
+                                <!-- END Hidden Required Fields -->
                                 <div class="form__input-group">
-                                    <label class="visually-hidden" for="form-manager-name">Имя:</label>
-                                    <input class="form__input" id="form-manager-name" type="text" placeholder="Ваше имя*" required>
+                                    <label class="visually-hidden"  for="form-manager-name">Имя:</label>
+                                    <input class="form__input" name="Name" id="form-manager-name" type="text" placeholder="Ваше имя*" required>
                                 </div>
                                 <div class="form__input-group">
                                     <label class="visually-hidden" for="form-manager-phone">Телефон:</label>
-                                    <input class="form__input" id="form-manager-phone" type="tel" placeholder="Ваш телефон*" required>
+                                    <input class="form__input" name="Name" id="form-manager-phone" type="number" placeholder="Ваш телефон*" required>
                                 </div>
                                 <div class="check-wrapper form-check">
-                                    <input class="form-check-input form__check " id="form-manager-check" type="checkbox"> 
+                                    <input class="form-check-input form__check " id="form-manager-check" type="checkbox" required> 
                                     <label class="form-check-text" for="form-manager-check">Я принимаю условия
                                     <a href="policy/politica-dannie.docx" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных
                                     данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О
@@ -647,22 +653,27 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content modal-sendform">                    
                     <div class="modal-body modal-sendform__body">                        
-                        <form class="form" action="">
+                        <form class="form">
                             <button type="button" class="modal-sendform__close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                             <h3 class="form__title">Мы вам перезвоним</h3>
                             <p class="form__text">Оставьте заявку и мы ответим на все вопросы</p>
+                            <!-- Hidden Required Fields -->
+                            <input type="hidden" name="project_name" value="toledo-manager.ru">
+                            <input type="hidden" name="admin_email" value="mail@toledo-manager.ru">
+                            <input type="hidden" name="form_subject" value="Вопрос с сайта toledo-manager.ru">
+                            <!-- END Hidden Required Fields -->
                             <div class="form__input-group">
                                 <label class="visually-hidden" for="form-sendform-name">Имя:</label>
-                                <input class="form__input" id="form-sendform-name" type="text" placeholder="Ваше имя*" required>
+                                <input class="form__input" id="form-sendform-name" name="Name" type="text" placeholder="Ваше имя*" required>
                             </div>
                             <div class="form__input-group">
                                 <label class="visually-hidden" for="form-sendform-phone">Телефон:</label>
-                                <input class="form__input" id="form-sendform-phone" type="tel" placeholder="Ваш телефон*" required>
+                                <input class="form__input" id="form-sendform-phone" name="Phone" type="tel" placeholder="Ваш телефон*" required>
                             </div>
                             <div class="check-wrapper">
-                                <input class="form__check" id="form-sendform-check" type="checkbox"> 
+                                <input class="form__check" id="form-sendform-check" type="checkbox" required> 
                                 <label class="form-check-text" for="form-sendform-check">Я принимаю условия
                                 <a href="policy/politica-dannie.docx" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных
                                 данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О
@@ -681,16 +692,16 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content modal-sendform">                    
                     <div class="modal-body modal-sendform__body">                        
-                        <form class="form" action="">
+                        <form class="form">
                             <button type="button" class="modal-sendform__close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                             <h3 class="form__title">СКАЧАТЬ ПРАЙС-ЛИСТ</h3>
                             <p class="form__text">Заполните заявку и получите предложение на почту</p>
                             <!-- Hidden Required Fields -->
-                            <input type="hidden" name="project_name" value="toledo-arzamas.ru">
-                            <input type="hidden" name="admin_email" value="mail@toledo-arzamas.ru">
-                            <input type="hidden" name="form_subject" value="Вопрос с сайта toledo-arzamas.ru">
+                            <input type="hidden" name="project_name" value="toledo-manager.ru">
+                            <input type="hidden" name="admin_email" value="mail@toledo-manager.ru">
+                            <input type="hidden" name="form_subject" value="Скачать прайс-лист - toledo-manager.ru">
                             <!-- END Hidden Required Fields -->
                             <div class="form__input-group">
                                 <label class="visually-hidden" for="form-price-name">Имя:</label>
@@ -706,20 +717,21 @@
                             </div>
                             <div class="form__input-group">
                                 <label class="visually-hidden" for="form-price-list">Адрес почты:</label>
-                                <select class="form__input" id="form-price-list" name="form-price-list" multiple>
-                                    <option value="meat">Кабельно-проводниковая продукция</option>
-                                    <option value="fish">Кабельнесущие системы и аксессуары</option>
-                                    <option value="chi">Светильники</option>
-                                    <option value="ind">Защитное, учетное и низковольтное оборудование</option>
-                                    <option value="mice">Щитовое оборудование и аксессуары</option>
-                                    <option value="mice">Телефония, Аудио, Видео, ТВ</option>
-                                    <option value="mice">Электро-установочные изделия</option>
-                                    <option value="mice">Устройства электропитания</option>
-                                    <option value="mice">Удлинители, сетевые фильтры</option>
+                                <select class="form__input" id="form-price-list" name="Price-list" multiple>
+                                    <option value="Кабельно-проводниковая продукция">Кабельно-проводниковая продукция</option>
+                                    <option value="Кабельнесущие системы и аксессуары">Кабельнесущие системы и аксессуары</option>
+                                    <option value="Светильники">Светильники</option>
+                                    <option value="Лампы">Лампы</option>
+                                    <option value="Защитное, учетное и низковольтное оборудование">Защитное, учетное и низковольтное оборудование</option>
+                                    <option value="Щитовое оборудование и аксессуары">Щитовое оборудование и аксессуары</option>
+                                    <option value="Системы безопасности">Системы безопасности</option>
+                                    <option value="Электро-установочные изделия">Электро-установочные изделия</option>
+                                    <option value="Устройства электропитания">Устройства электропитания</option>
+                                    <option value="Продукция для IT-Технологий">Продукция для IT-Технологий</option>
                                 </select>
                             </div>
                             <div class="check-wrapper">
-                                <input class="form__check" id="form-price-check" type="checkbox"> 
+                                <input class="form__check" id="form-price-check" type="checkbox" required> 
                                 <label class="form-check-text" for="form-price-check">Я принимаю условия
                                 <a href="policy/politica-dannie.docx" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных
                                 данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О
@@ -772,7 +784,7 @@
                                 <a class="footer-nav__link" href="tel:+78314795194">+7 (83147) 9-51-94, доб. 2506</a>
                             </li>
                             <li class="footer-nav__item">
-                                <a class="footer-nav__link" href="">pruchkina.t@toledo24.ru</a>
+                                <a class="footer-nav__link" href="mailto:pruchkina.t@toledo24.ru">pruchkina.t@toledo24.ru</a>
                             </li>                  
                         </ul>
                     </div>                                                           
